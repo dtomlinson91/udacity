@@ -3,3 +3,6 @@
 
 # ignore zip files
 *.zip
+
+# ignore sublime-workspace
+*.sublime-workspace
