@@ -30,8 +30,8 @@ print(diabetes.head())
 
 # Summary on diabetes df
 print(diabetes.describe())
-# sns.pairplot(diabetes, hue='Outcome', diag_kind='hist')
-# plt.show()
+sns.pairplot(diabetes, hue='Outcome', diag_kind='hist')
+plt.show()
 sns.heatmap(diabetes.corr(), annot=True, square=True,
             annot_kws={"size": 12})
 # plt.tight_layout()
